@@ -1,4 +1,11 @@
-# 다시점 이미지 회전각 추정 (Sparse Correspondence Rotation Estimation)
+<h1 align="center">
+  샘플링 영역의 변화에 따른 <br/>
+희소 대응점을 가진 다시점 이미지 회전각 추정
+
+<p align="center">
+  <em>(Estimation of Rotation of Multiple-View Camera with Variation of Feature Sampling Region)</em>
+</p>
+</h1>
 
 - 실제 열화상 카메라 영상에서 카메라 간 회전각을 추정하는 알고리즘을 구현<br/>
 - 서로 다른 시점에서 거의 겹치지 않는 이미지의 대응점 문제를 해결하기 위해, 각 시점을 독립적으로 회전시켜 대응점을 확장하고, 다양한 샘플링 영역을 선택해 호모그래피 기반 회전 추정의 정확도를 분석 
