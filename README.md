@@ -55,37 +55,25 @@
 
 ## 설치 및 실행
 
-1. 의존성 설치
+1. 레퍼지토리 복제
+
+```bash
+git clone https://github.com/<username>/<repo>.git
+cd <repo>
+```
+
+2. 의존성 설치
 
 ```bash
 pip install -r requirements.txt
 ```
 
-2. 데이터 준비
+3. Jupyter Notebook 실행
 
 ```bash
-# data/raw 폴더에 열화상 이미지(.png 등)를 추가
+jupyter notebook
 ```
 
-3. 전처리 및 샘플링
-
-```bash
-python src/preprocessing.py --input data/raw --output data/processed
-python src/sampling.py --input data/processed --method quadrant_a
-```
-
-4. 회전각 추정 및 결과 확인
-
-```bash
-python src/homography.py --input data/processed --config experiments/configs/quadrant_a.yaml
-python src/rotation.py --input results/homography --output results/rotation
-```
-
-5. 블렌딩 이미지 생성
-
-```bash
-python src/blending.py --homography results/homography/H.npy --images data/raw --output results/blending
-```
 
 
 
