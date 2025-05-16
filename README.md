@@ -1,3 +1,14 @@
+<small>
+  <p>
+    2025.04 update<br/>
+    심화 연구 – 
+    <a href="https://difficult-course-6a8.notion.site/1a6e69e4b9b380c598addac4f4fb681a?pvs=4">
+      Tiny-Nerf 사용과 증발한 실험에 대한 고찰 ,,
+    </a>
+  </p>
+<!-- 수평선 -->
+<hr/>
+
 <h1 align="center">
   샘플링 영역의 변화에 따른 <br/>
 희소 대응점을 가진 다시점 이미지 회전각 추정
